@@ -4118,10 +4118,10 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			height: 100%;
-			left: 0;
+			left: 0; /* was zero */
 			opacity: 0;
 			position: absolute;
-			text-align: center;
+			text-align: center; /* banner text position */
 			top: 0;
 			visibility: hidden;
 			width: 100%;
@@ -4163,6 +4163,7 @@
 				margin-bottom: 0;
 				color: #FFF;
 				font-weight: 300;
+				padding-left: 500px; /* adding padding to heading text */
 			}
 
 				.banner > article h2:after {
@@ -4177,6 +4178,7 @@
 				margin: 0;
 				padding-bottom: 1.75rem;
 				letter-spacing: .25rem;
+				padding-left: 500px; /* adding padding to paragraph text */
 			}
 
 				.banner > article p:after {
@@ -4185,8 +4187,8 @@
 					margin: auto;
 					right: 0;
 					bottom: 0;
-					left: 0;
-					width: 50%;
+					left: 480; /* padding/margin for horizontal line */
+					width: 50%; /* changes width of horizontal line */
 					height: 1px;
 					background-color: rgba(255, 255, 255, 0.65);
 				}
