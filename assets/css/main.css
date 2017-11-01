@@ -2330,6 +2330,13 @@
 			border-radius: 2px;
 			display: block;
 		}
+		/* adding image books
+
+		.image.book {
+			width: 100%;
+			align-items: center;
+		}*/
+
 
 		.image.left, .image.right {
 			max-width: 40%;
