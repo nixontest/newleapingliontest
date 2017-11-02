@@ -2753,9 +2753,9 @@
 				background-color: #8499e7;
 			}
 
-			/*custom style - transparent white*/
+			/*our custom style - transparent white*/
 			.tiles article.style7 > .image:before {
-				background-color: #00FFFFFF;
+				background-color: #00FFFFFF; /* colour of filter over book cover */
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
@@ -2766,8 +2766,8 @@
 			}
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
-					background-color: #333333;
-					opacity: 0.35;
+					background-color: #000000; /* changes colour of hover - original value = #333333 */
+					opacity: 0.8; /* changes opacity of hover - original value 0.35 */
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
