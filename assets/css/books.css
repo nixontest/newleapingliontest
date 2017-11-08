@@ -2639,7 +2639,7 @@
 					height: 100%;
 					opacity: 1.0;
 					z-index: 1;
-					opacity: 0.8;
+					opacity: 0; /* nov 8 change from 0.8 to 0 because of bright light blue/cyan filter */
 				}
 
 				.tiles article > .image:after {
@@ -2755,7 +2755,7 @@
 
 			/*our custom style - transparent white*/
 			.tiles article.style7 > .image:before {
-				background-color: #00FFFFFF; /* colour of filter over book cover */
+				background-color: #FFFFFF; /* colour of filter over book cover */
 			}
 
 			body:not(.is-touch) .tiles article:hover > .image {
