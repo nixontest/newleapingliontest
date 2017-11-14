@@ -1813,6 +1813,7 @@
 	}
 
 		.box .image.fit {
+			text-align:center;
 			margin: 0;
 			border-radius: 0;
 		}
