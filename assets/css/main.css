@@ -1808,7 +1808,6 @@
 /* Box */
 
 	.box {
-		text-align:center;
 		margin-bottom: 2rem; /*2rem original */
 		background: #FFF;
 	}
@@ -1816,7 +1815,6 @@
 		.box .image.fit {
 			margin: 0;
 			border-radius: 0;
-			display:inline-block;
 		}
 
 			.box .image.fit img {
