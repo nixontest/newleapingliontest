@@ -2131,6 +2131,32 @@
 			.button.special:active {
 				background-color: #793d70;
 			}
+			/* 2017 York Button */
+
+		input[type="submit"].york,
+		input[type="reset"].york,
+		input[type="button"].york,
+		button.york,
+		.button.york {
+			background-color: #ff0000;
+			color: #ff0000 !important;
+		}
+
+			input[type="submit"].york:hover,
+			input[type="reset"].york:hover,
+			input[type="button"].york:hover,
+			button.york:hover,
+			.button.york:hover {
+				background-color: #ff0000;
+			}
+
+			input[type="submit"].york:active,
+			input[type="reset"].york:active,
+			input[type="button"].york:active,
+			button.york:active,
+			.button.york:active {
+				background-color: #ff0000;
+			} /* delete up to here if doesn't work */
 
 /* Form */
 
