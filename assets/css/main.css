@@ -4157,11 +4157,11 @@
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
 			pointer-events: none;
-			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s;
+			-moz-transition: opacity 1.5s ease-in-out, visibility 1.5s; /* deals with animations */
 			-webkit-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			-ms-transition: opacity 1.5s ease-in-out, visibility 1.5s;
 			transition: opacity 1.5s ease-in-out, visibility 1.5s;
-			background: #000000;
+			background: #000000; /*black*/
 			content: '';
 			display: block;
 			height: 100%;
@@ -4251,7 +4251,7 @@
 				top: 0;
 				left: 0;
 				background: #000;
-				opacity: 0.35;
+				opacity: 0; /* original value 0.35 looked pretty cool but not good for our picture */
 			}
 
 			.banner > article .inner {
