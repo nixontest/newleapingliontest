@@ -1800,7 +1800,7 @@
 	p {
 		color: #212121;
 	}
-	
+
 	blockquote {
 		border-left-color: rgba(144, 144, 144, 0.25);
 	}
@@ -3085,7 +3085,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #8a4680;
+					background-color: #d31902; /* original purple = #8a4680 */
 					color: #ffffff !important;
 				}
 
@@ -3094,7 +3094,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #9b4f90;
+						background-color: #d6321d; /* original lighter purple = #9b4f90 */
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
