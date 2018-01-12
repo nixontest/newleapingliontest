@@ -3000,7 +3000,7 @@
 			}
 
 		.wrapper.style2 {
-			background-color: #1d1c34; /* CURRENT HOME PAGE BACKGROUND - dark navy = #1d1c34 | charcoal = #161616 */
+			background-color: #161616; /* CURRENT HOME PAGE BACKGROUND - dark navy = #1d1c34 | charcoal = #161616 */
 			color: #a6a6a6;
 		}
 
@@ -4396,7 +4396,7 @@
 
 	#footer {
 		padding: 4rem 0 2rem 0 ;
-		background: #101321;
+		background: #161616; /* old dark navy blue = #101321*/
 		text-align: center;
 	}
 
