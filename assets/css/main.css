@@ -3084,7 +3084,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #d31902; /* original purple = #8a4680 */
+					background-color: #f39b06; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
 					color: #ffffff !important;
 				}
 
@@ -3093,7 +3093,7 @@
 					.wrapper.style2 input[type="button"].special:hover,
 					.wrapper.style2 button.special:hover,
 					.wrapper.style2 .button.special:hover {
-						background-color: #d6321d; /* original lighter purple = #9b4f90 */
+						background-color: #ffaa3b; /* special button colour hover - original lighter purple = #9b4f90, york red = #d6321d, amazon yellow = #ffaa3b */
 					}
 
 					.wrapper.style2 input[type="submit"].special:active,
@@ -3101,6 +3101,31 @@
 					.wrapper.style2 input[type="button"].special:active,
 					.wrapper.style2 button.special:active,
 					.wrapper.style2 .button.special:active {
+						background-color: #793d70;
+					}
+
+				.wrapper.style2 input[type="submit"].yorkspecial,
+				.wrapper.style2 input[type="reset"].yorkspecial,
+				.wrapper.style2 input[type="button"].yorkspecial,
+				.wrapper.style2 button.yorkspecial,
+				.wrapper.style2 .button.yorkspecial {
+					background-color: #d31902; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
+					color: #ffffff !important;
+				}
+
+					.wrapper.style2 input[type="submit"].yorkspecial:hover,
+					.wrapper.style2 input[type="reset"].yorkspecial:hover,
+					.wrapper.style2 input[type="button"].yorkspecial:hover,
+					.wrapper.style2 button.yorkspecial:hover,
+					.wrapper.style2 .button.yorkspecial:hover {
+						background-color: #d6321d; /* special button colour hover - original lighter purple = #9b4f90, york red = #d6321d, amazon yellow = #ffaa3b */
+					}
+
+					.wrapper.style2 input[type="submit"].yorkspecial:active,
+					.wrapper.style2 input[type="reset"].yorkspecial:active,
+					.wrapper.style2 input[type="button"].yorkspecial:active,
+					.wrapper.style2 button.yorkspecial:active,
+					.wrapper.style2 .button.yorkspecial:active {
 						background-color: #793d70;
 					}
 
