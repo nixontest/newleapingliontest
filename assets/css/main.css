@@ -3084,7 +3084,7 @@
 				.wrapper.style2 input[type="button"].special,
 				.wrapper.style2 button.special,
 				.wrapper.style2 .button.special {
-					background-color: #f39b06; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
+					background-color: #ff9900; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
 					color: #ffffff !important;
 				}
 
@@ -3109,7 +3109,7 @@
 				.wrapper.style2 input[type="button"].yorkspecial,
 				.wrapper.style2 button.yorkspecial,
 				.wrapper.style2 .button.yorkspecial {
-					background-color: #d31902; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
+					background-color: #cc0000; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
 					color: #ffffff !important;
 				}
 
@@ -3126,6 +3126,31 @@
 					.wrapper.style2 input[type="button"].yorkspecial:active,
 					.wrapper.style2 button.yorkspecial:active,
 					.wrapper.style2 .button.yorkspecial:active {
+						background-color: #793d70;
+					}
+
+				.wrapper.style2 input[type="submit"].kobospecial,
+				.wrapper.style2 input[type="reset"].kobospecial,
+				.wrapper.style2 input[type="button"].kobospecial,
+				.wrapper.style2 button.kobospecial,
+				.wrapper.style2 .button.kobospecial {
+					background-color: #BF0000; /*special button colour - original purple = #8a4680, york red = #d31902, amazon yellow = #f39b06*/
+					color: #ffffff !important;
+				}
+
+					.wrapper.style2 input[type="submit"].kobospecial:hover,
+					.wrapper.style2 input[type="reset"].kobospecial:hover,
+					.wrapper.style2 input[type="button"].kobospecial:hover,
+					.wrapper.style2 button.kobospecial:hover,
+					.wrapper.style2 .button.kobospecial:hover {
+						background-color: #d6321d; /* special button colour hover - original lighter purple = #9b4f90, york red = #d6321d, amazon yellow = #ffaa3b */
+					}
+
+					.wrapper.style2 input[type="submit"].kobospecial:active,
+					.wrapper.style2 input[type="reset"].kobospecial:active,
+					.wrapper.style2 input[type="button"].kobospecial:active,
+					.wrapper.style2 button.kobospecial:active,
+					.wrapper.style2 .button.kobospecial:active {
 						background-color: #793d70;
 					}
 
