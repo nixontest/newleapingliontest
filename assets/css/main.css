@@ -4456,6 +4456,15 @@
 			#footer a:hover {
 				color: #FFF;
 			}
+			
+ 		/* yellow twitter icon */
+		#footer a.two {
+			color: rgba(255, 252, 130, 1);
+		}
+
+			#footer a.two:hover {
+				color: #FFF;
+			}
 
 		#footer .copyright {
 			color: #bbb;
