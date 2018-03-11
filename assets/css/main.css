@@ -3073,7 +3073,8 @@
 			}
 
 		.wrapper.style2 {
-			background-image: url(../../images/books/wildjusticefull.jpg);
+			background-color: #f2f2f2;
+			color: #a6a6a6;
 		}
 
 			.wrapper.style2 input, .wrapper.style2 select, .wrapper.style2 textarea {
