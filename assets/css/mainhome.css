@@ -3476,7 +3476,7 @@
 				background-color: rgba(0, 0, 0, 0.95);
 				height: 100%;
 				left: 0;
-				opacity: 0; /* coming soon banner opacity */
+				opacity: 0.6; /* coming soon banner opacity */
 				position: absolute;
 				top: 0;
 				width: 100%;
